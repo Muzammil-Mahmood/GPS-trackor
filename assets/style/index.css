@@ -1,0 +1,20 @@
+@import './reset.css';
+
+
+main {
+    min-width: 100%;
+    height: 100vh;
+    height: calc(var(--vh 1vh) * 100);
+}
+
+.map {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--ap-bg-dark);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    
+}
